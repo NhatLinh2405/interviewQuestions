@@ -55,6 +55,31 @@ img {
 	object-fit: fill;
 }
 
+table {
+	width: 65%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+	font-size: 20px;
+}
+
+tr {
+	font-size: 18px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
 .container {
 	max-width: 1400px;
 	margin: 20px auto;
@@ -71,7 +96,7 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 24px 20px;
+	padding: 16px 20px;
 	color: white;
 	background-color: black;
 }
@@ -103,7 +128,16 @@ img {
 	margin: 10px 0;
 }
 
-.imgContent {
-	width: 450px;
+.imgContent-2 {
+	width: 500px;
+	height: 600px;
+}
+
+.imgContent-3 {
+	width: 60%;
 	height: 450px;
+}
+
+.ml-5 {
+	margin-left: 20px;
 }
