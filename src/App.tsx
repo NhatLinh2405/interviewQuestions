@@ -9,7 +9,7 @@ export default function App() {
 			<Navigation />
 			<div className="container">
 				<Routes>
-					<Route path="question1" element={<Question1 />} />
+					<Route path="/" element={<Question1 />} />
 					<Route path="question2" element={<Question2 />} />
 					<Route path="question3" element={<Question3 />} />
 				</Routes>

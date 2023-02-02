@@ -4,7 +4,7 @@ export default function Navigation() {
 	const navlinks = [
 		{
 			name: "1",
-			link: "/question1",
+			link: "/",
 		},
 		{
 			name: "2",
